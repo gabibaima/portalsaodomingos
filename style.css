@@ -1,0 +1,456 @@
+
+@font-face {
+    font-family: 'redvelvet';
+    src: url(Red\ Velvet.otf) format(opentype); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@font-face {
+    font-family: 'cursive';
+    src: url(KGPrimaryItalics.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+/*PÁGINA PRINCIPAL - CAPA*/
+    
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 9px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 88px;
+    background: #1E4506;
+    border-radius: 0px 0px 55px 55px;
+}
+
+#logo{
+    height: 44px;
+    margin-left: 56px;
+}
+
+#cabecalho-item{
+    color: white;
+    margin-left: 67px;
+    width: 99px;
+}
+
+
+
+#titulop{
+    position: absolute;
+    width: 498px;
+    height: 83px;
+    left: 450px;
+    top: 185px;
+    font-size: 96px;
+    font-family: 'redvelvet';
+    font-style: bold;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+#subtitulop{
+    position: absolute;
+    width: 478px;
+    height: 83px;
+    left: 460px;
+    top: 325px;
+    font-size: 26px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+/* PÁGINA PRINCIPAL - CONTEUDO*/
+
+#part1{
+    position: absolute;
+    width: 999px;
+    height: 350px;
+    left: 145px;
+    top: 772px;
+    background: #F5F5F5;
+    box-shadow: 15px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 83px;
+}
+
+#euamo{
+    width: 499px;
+    height: 350px;
+}
+
+#titulo1{
+    position: absolute;
+    width: 420px;
+    font-family: "cursive";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 46px;
+    height: 21px;
+    left: 530px;
+    top: 23px;
+}
+
+#texto1{
+    position: absolute;
+    width: 420px;
+    font-family: 'Roboto Slab', serif;
+    height: 21px;
+    left: 530px;
+    top: 120px;
+}
+
+#part2{
+    border-top: 1px solid #000000;;
+    position: absolute;
+    width: 1100px;
+    height: 0px;
+    left: 52px;
+    top: 1200px;
+}
+
+#demografia{
+    position: absolute;
+    width: 420px;
+    height: 340px;
+    left: 77px;
+    top: 57px;
+    background: #F5F5F5;
+    box-shadow: 15px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 86px;
+}
+
+#titulo2{
+    position: absolute;
+    width: 420px;
+    font-family: 'cursive';
+    font-size: 34px;
+    height: 21px;
+    left: 30px;
+    top: 24px;
+}
+
+#texto2{
+    position: absolute;
+    width: 420px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    height: 21px;
+    left: 35px;
+    top: 100px;
+}
+
+#login{
+    position: absolute;
+    width: 420px;
+    height: 340px;
+    left: 620px;
+    top: 57px;
+    background: #F5F5F5;
+    box-shadow: 15px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 86px;
+}
+
+#titulo3{
+    position: absolute;
+    font-family: 'cursive';
+    font-size: 37px;
+    font-style: normal;
+    width: 420px;
+    height: 21px;
+    left: 40px;
+    top: 24px;
+}
+
+#icone-lg{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 40px;
+    top: 125px;
+
+}
+
+#texto3{
+    position: absolute;
+    width: 190px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    height: 21px;
+    left: 210px;
+    top: 130px;
+}
+
+#botaohome1{
+    position: absolute;
+    width: 87px;
+    height: 37px;
+    left: 170px;
+    top: 270px;
+    font-size: 12px;
+    background: #D9D9D9;
+    border: #D9D9D9;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#hist{
+    position: absolute;
+    width: 420px;
+    height: 340px;
+    left: 77px;
+    top: 500px;
+    background: #F5F5F5;
+    box-shadow: 15px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 86px;
+}
+
+#titulo4{
+    position: absolute;
+    font-family: 'cursive';
+    font-size: 37px;
+    font-style: normal;
+    width: 420px;
+    height: 21px;
+    left: 30px;
+    top: 24px;
+}
+
+#icone-ht{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 40px;
+    top: 110px;
+
+}
+
+#texto4{
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 220px;
+    height: 21px;
+    left: 190px;
+    top: 120px;
+}
+
+#botaohome2{
+    position: absolute;
+    width: 87px;
+    height: 37px;
+    left: 160px;
+    top: 270px;
+    font-size: 12px;
+    background: #D9D9D9;
+    border: #D9D9D9;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#pq{
+    position: absolute;
+    width: 420px;
+    height: 340px;
+    left: 630px;
+    top: 500px;
+    background: #F5F5F5;
+    box-shadow: 15px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 86px;
+}
+
+#titulo5{
+    position: absolute;
+    font-family: 'cursive';
+    font-size: 37px;
+    font-style: normal;
+    width: 420px;
+    height: 21px;
+    left: 30px;
+    top: 24px;
+}
+
+#icone-pq{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 40px;
+    top: 125px;
+
+}
+
+#texto5{
+    position: absolute;
+    width: 150px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    height: 21px;
+    left: 210px;
+    top: 135px;
+}
+
+#botaohome3{
+    position: absolute;
+    width: 87px;
+    height: 37px;
+    left: 170px;
+    top: 270px;
+    font-size: 12px;
+    background: #D9D9D9;
+    border: #D9D9D9;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#cl{
+    position: absolute;
+    width: 420px;
+    height: 340px;
+    left: 77px;
+    top: 950px;
+    background: #F5F5F5;
+    box-shadow: 15px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 86px;
+}
+
+#titulo6{
+    position: absolute;
+    font-family: 'cursive';
+    font-size: 37px;
+    font-style: normal;
+    width: 420px;
+    height: 21px;
+    left: 30px;
+    top: 24px;
+}
+
+#icone-cl{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 40px;
+    top: 120px;
+
+}
+
+#texto6{
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 200px;
+    height: 21px;
+    left: 200px;
+    top: 140px;
+}
+
+#botaohome4{
+    position: absolute;
+    width: 87px;
+    height: 37px;
+    left: 160px;
+    top: 270px;
+    font-size: 12px;
+    background: #D9D9D9;
+    border: #D9D9D9;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#mapa{
+    position: absolute;
+    width: 420px;
+    height: 340px;
+    left: 635px;
+    top: 950px;
+    background: #F5F5F5;
+    box-shadow: 15px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 86px;
+}
+
+#titulo7{
+    position: absolute;
+    font-family: 'cursive';
+    font-size: 37px;
+    font-style: normal;
+    width: 420px;
+    height: 21px;
+    left: 30px;
+    top: 24px;
+}
+
+#icone-m{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 50px;
+    top: 110px;
+}
+
+#texto7{
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 190px;
+    height: 21px;
+    left: 200px;
+    top: 125px;
+}
+
+#botaohome5{
+    position: absolute;
+    width: 87px;
+    height: 37px;
+    left: 170px;
+    top: 270px;
+    font-size: 12px;
+    background: #D9D9D9;
+    border: #D9D9D9;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* PÁGINA PRINCIPAL - FOOTER*/
+
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    left: 0px;
+    top: 2600px;
+    background: #D9D9D9;
+}
+
+#texto8{
+    position: absolute;
+    width: 593.93px;
+    height: 97.21px;
+    left: 113.11px;
+    font-size: 23px;
+    top: 34px;
+}
+
+#logo-footer{
+    position: absolute;
+    width: 435px;
+    height: 129px;
+    left: 700px;
+    top: 23px;
+}
+
+#icone-rede{
+    position: absolute;
+    width: 141px;
+    height: 41px;
+    left: 113px;
+    top: 115px;
+}
